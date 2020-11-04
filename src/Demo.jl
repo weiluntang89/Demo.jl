@@ -1,5 +1,7 @@
 module Demo
 
-greet() = print("Hello World!")
+export greet
+
+greet() = println("Hello World!")
 
 end # module
