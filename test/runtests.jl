@@ -3,4 +3,4 @@ using Demo
 
 @test greet() === nothing
 println("Hello this is a test")
-Demo.my_f(2,1)
+prinln("my_f:", Demo.my_f(2,1))
